@@ -1,8 +1,8 @@
 clc; clear; close all;
 load X.mat 
 % From Seattle dataset
-% A 3*(288*15)*208 tensor 
-% (V/O/S * 15 days' 5-min intervals * 208 sensors)
+% A 3*(288*14)*208 tensor 
+% (V/O/S * 14 days' 5-min intervals * 208 sensors)
 
 % Volume
 figure;
